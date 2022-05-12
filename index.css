@@ -9,21 +9,24 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul,li,
     
 }
 
+
+
 body{
     background-color: blueviolet;
-    width: 300px;
+    width:90vh;
     height: 600px;
     border: 5px red;
     border-radius: 10px;
     display: flex;
     justify-content: center;
+    align-items:center;
     flex-direction: column;
+    
 }
 
 main{
-    margin: 5px solid brown;
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     flex-direction: column;
     align-items: center;
 }
@@ -32,14 +35,25 @@ div{
     display:block;
     align-items: center;
     background-color: blue;
+    width: 100%;
+    justify-content: space-between;
 }
 
 ul{
     background-color: antiquewhite;
-    width: 200px;
+    width: 100%;
     align-items:stretch;
+    display: flex;
     justify-content: space-between;
     display: block;
+    gap: 50px; 
+}
+
+li{
+    background-color:yellow;
+    display: inline-block;
+    justify-content:space-between;
+    width: 100%;
 }
 
 section{
@@ -48,5 +62,6 @@ section{
     height: 50px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     
 }

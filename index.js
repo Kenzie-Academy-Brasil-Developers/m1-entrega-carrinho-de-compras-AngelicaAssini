@@ -17,7 +17,20 @@ tagh2.innerText = "Valor"
 
 
 
-var products = [{nome:"agua", preco: 5}, {nome: "pão", preco: 2}]
+var products = [
+    {
+        nome:"agua", 
+        preco: 5
+    }, 
+    {
+        nome: "pão", 
+        preco: 2
+    },
+    {
+        nome:"café",
+        preco: 10
+    }
+]
 var soma = 0
 
 //1) Obtendo dados dos produtos
